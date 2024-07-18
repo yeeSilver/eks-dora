@@ -2,7 +2,7 @@
 
 # Create IAM Role
 resource "aws_iam_role" "eks_master_role" {
-  name = "jay-eks-master-role"
+  name = "jay1-eks-master-role"
 
   assume_role_policy = <<POLICY
 {
